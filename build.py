@@ -10,7 +10,7 @@ import json
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parent
-CHAPTERS=['合作目标','总体架构','七个案例','能力底座','业务工具','Ontology','合作计划','决策收敛']
+CHAPTERS=['Why · 为什么现在','总体架构','七个案例','能力底座','业务工具','Ontology','合作计划','决策收敛']
 
 
 def load_deck(metadata: str, folder: str, expected: int) -> dict:
